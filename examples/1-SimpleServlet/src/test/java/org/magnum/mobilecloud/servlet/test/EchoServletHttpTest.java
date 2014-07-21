@@ -4,6 +4,7 @@ import static org.junit.Assert.assertEquals;
 import java.net.URL;
 
 import org.apache.commons.io.IOUtils;
+import org.junit.Ignore;
 import org.junit.Test;
 
 /**
@@ -32,6 +33,7 @@ public class EchoServletHttpTest {
 	 * @throws Exception
 	 */
 	@Test
+	@Ignore
 	public void testMsgEchoing() throws Exception {
 		// The message to send to the EchoServlet
 		String msg = "1234";
