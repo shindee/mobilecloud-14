@@ -33,7 +33,6 @@ public class EchoServletHttpTest {
 	 * @throws Exception
 	 */
 	@Test
-	@Ignore
 	public void testMsgEchoing() throws Exception {
 		// The message to send to the EchoServlet
 		String msg = "1234";
