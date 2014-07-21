@@ -4,7 +4,6 @@ import static org.junit.Assert.assertEquals;
 import java.net.URL;
 
 import org.apache.commons.io.IOUtils;
-import org.junit.Ignore;
 import org.junit.Test;
 
 /**
